@@ -1,0 +1,16 @@
+GLOBAL: Check Unknown Parts and user Assigned Models
+BOARD: Rotation X Angle = 10
+CAMERA: Defaults
+LIGHT 1+2: Defaults
+LIGHT 3+4: Defaults
+Miscellaneous: Add 39 to first two lists
+Colors: User: Dk Grn,Gray10,Silver,Gray50,Gray50,white,gray70
+
+Use atmel logo, choose LED color (white or green), unsocketed chip, no OSH part
+
+in header.pov:
+#declare myGRAY = rgb <223/255,223/255,223/255>;
+#declare col_bgr = myGRAY;
+
+3dusrpac.dat in EAGLE-5.11.0/ulp/Eagle3D
+user.inc, user_colors.inc, user_lcd.bmp, user_lcd.inc in EAGLE-5.11.0/ulp/Eagle3D/povray
